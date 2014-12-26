@@ -1,13 +1,22 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	It will create the hidden folder .git.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	
+	staging is a kind of virtual directory and located between working directory and repository. 
+The difference between staging and working directory is we have to add the file to staging in order to update the staging while all files in working directory are updated automatically. The difference between staging and repository is that the staging can hold only one group of file change at the time while repository hold multiple time of changing. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	To git add only one file at the time.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	When we need to have two different versions and want to keep developing in parallel. The branch will help to switch between two diff version.
 
 How do the diagrams help you visualize the branch structure?
 
