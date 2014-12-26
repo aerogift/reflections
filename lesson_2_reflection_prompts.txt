@@ -19,6 +19,8 @@ organized? How would branches help?
 	When we need to have two different versions and want to keep developing in parallel. The branch will help to switch between two diff version.
 
 How do the diagrams help you visualize the branch structure?
+	
+	The diagram will let us know the parent and its children by looking at the branch. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
